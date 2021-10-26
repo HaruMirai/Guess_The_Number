@@ -1,9 +1,11 @@
 import random
 
+#declare range of password from 0 to 9
 password = range(10)
 
+#Randomize the password
 x1 =  str(random.choice(password))
-print(x1)
+
 count = 1
 
 while True: 
@@ -19,6 +21,7 @@ while True:
         if count > 3:
             print('Game Over')
             exit()
+
 
 
     
